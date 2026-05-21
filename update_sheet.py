@@ -44,7 +44,7 @@ client = gspread.authorize(creds)
 
 spreadsheet_id = "1iWcxTj4nAv604pG2uEhmw0z3Fx-8qQCflX-5GwF6UdM" 
 
-worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 400 Stocks")
+worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")
 
 
 
