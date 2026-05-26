@@ -24,7 +24,7 @@ spreadsheet_id = "15JlFf9yRA0nRD9ApeXRvtoZH5pDxKRquGp_G_FeYhq4"
 
 # दोनों शीट्स को कनेक्ट करना
 try:
-    ws_volume = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")स्टॉक मार्केट ब्लॉग
+    ws_volume = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks")
     ws_turnover = client.open_by_key(spreadsheet_id).worksheet("Top 250 Turnover")
 except Exception as e:
     print(f"Sheet Connection Error: {e}")
